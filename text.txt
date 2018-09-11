@@ -1,0 +1,10 @@
+python manage.py inspectdb
+This will give you the output of running:
+python manage.py inspectdb > models.py 
+
+make migrations in database important
+
+
+imoprt in shell
+ from django.db import models
+>>> from ico.models import NsUsers
